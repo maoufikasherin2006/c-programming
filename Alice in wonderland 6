@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int num, path;
+
+    
+    scanf("%d", &num);
+
+    
+    path = (num % 10) + (num / 10);
+
+    
+    printf("Bird said:%d\n", num);
+    printf("Alice must go in path-%d\n", path);
+
+    return 0;
+}
