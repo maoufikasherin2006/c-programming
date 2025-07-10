@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    float float_value;
+    int sqrt_value, base, power;
+
+    
+    scanf("%f", &float_value);
+    scanf("%d", &sqrt_value);
+    scanf("%d", &base);
+    scanf("%d", &power);
+
+    
+    printf("%d\n", (int)floor(float_value));         
+    printf("%d\n", (int)ceil(float_value));          
+    printf("%d\n", (int)sqrt(sqrt_value));           
+    printf("%d\n", (int)pow(base, power));           
+
+    return 0;
+}
+
