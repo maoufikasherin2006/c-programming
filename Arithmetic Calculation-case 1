@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    int a,b;
+    char opt;
+    float c;
+    scanf("%d %d",&a,&b);
+    scanf(" %c",&opt);
+    switch(opt)
+        {
+            case'+':
+              c=a+b;
+            printf("Addition of two number is %.1f",c);
+            break;
+            case'-':
+            c=a-b;
+            printf("Subtraction of two number is %.1f",c);
+            break;
+            case'*':
+            c=a*b;
+            printf("Multiplication of two number is %.1f",c);
+            break;
+            case'/':
+            c=a/b;
+            printf("Division of two number is %.1f",c);
+            break;
+            default:
+            printf("Invalid Input");
+            }
+    
+    return 0;}
