@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int i,n,num,odd=0,even=0;
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+        {
+        scanf("%d",&num);
+        if(num%2==0)
+            even++;
+        else
+            odd++;
+        }
+        
+    if(even==n)
+        printf("Even\n");
+    else if(odd==n)
+        printf("Odd\n");
+    else
+        printf("Mixed\n");
+    
+        
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
