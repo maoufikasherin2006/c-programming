@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    int n,num,i;
+    float sum=0.0;
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&num);
+        sum+=num;
+         }
+    float mean=sum/n;
+    printf("Array Mean Value is %.2f\n",mean);
+    return 0;
+}
